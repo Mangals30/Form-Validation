@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80rem;
+
+}
+.first-name,.last-name,.email,.password,.telephone,.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.heading {
+    text-align: center;
+}
+
+.first-name-input,.last-name-input,.email-input,.password-input,.telephone-input,.bio-input{
+ width: 20rem;
+ height:2rem;
+ border-style: thin;
+ padding-left: 1rem;
+ 
+}
+
+.submit-button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(104, 96, 96);
+    color: white;
+    
+}
+.submit-button:focus {   
+    outline: 0;
+}
